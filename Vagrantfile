@@ -3,7 +3,7 @@
 
 $hostnames = <<EOF
 echo "Setting up /etc/hosts"
-echo -e "172.16.21.5\telasticsearch\n172.16.21.6\tconfluence\n172.16.21.7\tcrowd\n172.16.21.8\tclient\n" >> /etc/hosts
+echo -e "172.16.21.5\telasticsearch\n172.16.21.6\tredis\n172.16.21.7\tlogstash\n172.16.21.8\tclient\n" >> /etc/hosts
 EOF
 
 # Install packages I like
